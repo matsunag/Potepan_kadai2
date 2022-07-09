@@ -1,0 +1,739 @@
+@media screen and (min-width: 767px) {
+body {
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    display: block;
+    font-family: "游ゴシック",YuGothic,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+}
+
+header {
+    display: block;
+}
+
+.header1 {
+    width: 100%;
+    position: absolute;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #fff;
+    display: block;
+}
+
+div {
+    display: block;
+}
+
+.header2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 36px;
+    max-width: 100%;
+    position: relative;
+    z-index: 20;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+.header3 {
+    transition: opacity .2s;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+.headerimg {
+    display: block;
+    height: 20px;
+    width: auto;
+}
+
+.headerimg2 {
+    display: none;
+}
+
+nav {
+    display: block;
+}
+
+.header4 {
+    display: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+.headerlist {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: list-item;
+}
+
+.headerlistlink {
+    margin-right: 45px;
+    transition: opacity .2s;
+}
+
+.headerlistlink1 {
+    display: block;
+    font-weight: 700;
+    text-align: center;
+}
+
+.headerlistlink1> span:first-child {
+    font-family: 'Lato',sans-serif;
+}
+
+.headerlistlink> span {
+    display: block;
+    font-weight: 700;
+    text-align: center;
+}
+
+.headerlistlink1> span:last-child {
+    font-size: 10px;
+}
+
+.headerlistlink:last-of-type {
+    margin-right: 0px;
+}
+
+.headerlistlink_button {
+    align-items: center;
+    background-color: #f79214;
+    border: none;
+    border-radius: 38px;
+    cursor: pointer;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    height: 40px;
+    justify-content: center;
+    font-size: 12px;
+    padding: 0 20px;
+    font-family: 'Lato' ,sans-serif;
+}
+
+main {
+    display: block;
+}
+
+section {
+    display: block;
+}
+
+.firstview {
+    background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/styles/../images/home/first-view/top-hero.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+    padding-bottom: 28px;
+    position: relative;
+    z-index: 15;
+}
+
+.main_img1 {
+    width: 100%;
+}
+
+.main_img1--sp {
+    display: none;
+}
+
+.maincontainer {
+    max-width: 1140px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.main1 {
+    margin-bottom: 70px;
+    width: fit-content;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.main1_title {
+    color: #000;
+    font-family: 'Lato',sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 54px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.main_img2 {
+    margin-bottom: 25px;
+}
+
+.main_img2 img {
+    margin-right: 8px;
+}
+
+.main_img2 img:nth-of-type(2) {
+    width: 40%;
+}
+
+.main_img2 img:last-of-type {
+    margin-right: 0px;
+}
+
+.button {
+    display: flex;
+}
+
+.button a {
+    align-items: center;
+    background-color: #f79214;
+    border: none;
+    border-radius: 38px;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: 700;
+    height: 64px;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+}
+
+.button a {
+    transition: opacity .2s;
+}
+
+.button a:first-of-type {
+    margin-right: 15px;
+    width: 306px;
+}
+
+.button a:last-of-type {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #e0e0e0;
+    width: 176px;
+}
+
+p {
+    display: block;
+}
+
+p {
+    line-height: 1.5;
+}
+
+p {
+    color: #000;
+}
+
+.main_caption {
+    color: #a2a2a4;
+    font-size: 12px;
+}
+
+.main_caption a {
+    color: #a2a2a4;
+}
+
+.about {
+    background-color: #f79214;
+    padding: 44px 0;
+}
+
+.about_potepan {
+    max-width: 1140px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    align-items: center;
+    display: flex;
+}
+
+video {
+    object-fit: contain;
+}
+
+.video_potepan {
+    width: 50%
+}
+
+.about_title {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+    width: 100%;
+    margin-left: 32px;
+    margin-bottom: 0;
+    align-items: flex-start;
+}
+
+.about_title h2, .about_title p {
+    color: #fff;
+    text-align: left;
+}
+
+.about_title h2 {
+    font-family: "游ゴシック",YuGothic,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+    font-size: 38px;
+    font-weight: 900;
+    letter-spacing: .1em;
+    line-height: 54px;
+    width: 100%;
+}
+
+.about_title h2 span {
+    font-weight: 900;
+}
+
+.about_title h2>span {
+    font-family: 'Lato',sans-serif;
+    font-size: 38px;
+}
+
+.about_title br {
+    display: none;
+}
+
+.about_title p {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    margin-top: 10px;
+    margin-bottom: 16px;
+}
+
+.about_button {
+    color: #fff;
+    display: flex;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.about_button>img {
+    margin-right: 5px;
+}
+}
+
+@media screen and (max-width: 767px) {
+    body {
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    display: block;
+    font-family: "游ゴシック",YuGothic,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+}
+
+header {
+    display: block;
+}
+
+.header1 {
+    width: 100%;
+    position: fixed !important;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #fff;
+    display: block;
+}
+
+div {
+    display: block;
+}
+
+.header2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+    max-width: 100%;
+    position: relative;
+    z-index: 20;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+.header3 {
+    transition: opacity .2s;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+.headerimg {
+    display: none;
+}
+
+.headerimg2 {
+    display: block;
+    height: 16px;
+    width: auto;
+}
+
+nav {
+    display: block;
+}
+
+.header4 {
+    cursor: pointer;
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 21px;
+    z-index: 100;
+}
+
+.headerline {
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #000;
+    transform: translate(0,-50%);
+    border-radius: 10px;
+    transition: top .2s,transform .2s,opacity .3s;
+}
+
+.headerline:first-child {
+    top: 0;
+}
+
+.headerline:last-child {
+    top: 100%;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+.headerlist {
+    align-items: center;
+    display: none;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: list-item;
+}
+
+.headerlistlink {
+    margin-right: 45px;
+    transition: opacity .2s;
+}
+
+.headerlistlink1 {
+    display: none;
+    font-weight: 700;
+    text-align: center;
+}
+
+.headerlistlink1> span:first-child {
+    font-family: 'Lato',sans-serif;
+}
+
+.headerlistlink> span {
+    display: none;
+    font-weight: 700;
+    text-align: center;
+}
+
+.headerlistlink1> span:last-child {
+    font-size: 10px;
+}
+
+.headerlistlink:last-of-type {
+    margin-right: 0px;
+}
+
+.headerlistlink_button {
+    align-items: center;
+    background-color: #f79214;
+    border: none;
+    border-radius: 38px;
+    cursor: pointer;
+    color: #fff;
+    display: none;
+    flex-direction: column;
+    font-weight: 700;
+    height: 40px;
+    justify-content: center;
+    font-size: 12px;
+    padding: 0 20px;
+    font-family: 'Lato' ,sans-serif;
+}
+
+main {
+    display: block;
+    padding-top: 52px;
+}
+
+section {
+    display: block;
+}
+
+.firstview {
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-image: none;
+    padding-top: 0;
+    padding-bottom: 35px;
+}
+
+.main_img1 {
+    width: 100%;
+}
+
+.main_img1--sp {
+    display: block;
+}
+
+.maincontainer {
+    max-width: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-top: -45vw;
+}
+
+.main1 {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.main1_title {
+    color: #000;
+    font-family: 'Lato',sans-serif;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 25px;
+    line-height: 36px;
+    margin-left: calc(((100vw - 100%)/2)*-1);
+    margin-right: calc(((100vw - 100%)/2)*-1);
+}
+
+.main_img2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.main_img2 img {
+    margin-right: 8px;
+    width: 27.5%;
+}
+
+.main_img2 img:nth-of-type(2) {
+    width: 40%;
+}
+
+.main_img2 img:last-of-type {
+    margin-right: 0px;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+}
+
+.button a {
+    align-items: center;
+    background-color: #f79214;
+    border: none;
+    border-radius: 38px;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    height: 64px;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    width: 100% !important;
+}
+
+.button a {
+    transition: opacity .2s;
+}
+
+.button a:first-of-type {
+    width: 306px;
+    margin-right: 0;
+}
+
+.button a:last-of-type {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #e0e0e0;
+    width: 176px;
+    display: none;
+}
+
+p {
+    display: block;
+}
+
+p {
+    line-height: 1.5;
+}
+
+p {
+    color: #000;
+}
+
+.main_caption {
+    color: #a2a2a4;
+    font-size: 12px;
+}
+
+.main_caption a {
+    color: #a2a2a4;
+}
+
+.about {
+    background-color: #f79214;
+    padding: 30px 0;
+}
+
+.about_potepan {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    max-width: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.about_potepan {
+    flex-direction: column;
+}
+
+video {
+    object-fit: contain;
+}
+
+.video_potepan {
+    width: 100%
+}
+
+.about_title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 0;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+.about_title h2 {
+    font-family: 'Lato',sans-serif;
+    font-weight: 700;
+    font-size: 30px !important;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.about_title h2, .about_title p {
+    color: #fff;
+    text-align: left;
+}
+
+.about_title h2 {
+    font-family: "游ゴシック",YuGothic,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+    font-size: 38px;
+    font-weight: 900;
+    letter-spacing: .1em;
+    line-height: 54px;
+    width: 100%;
+}
+
+.about_title h2 span {
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.about_title br {
+    display: block;
+}
+
+.about_title h2>span {
+    font-family: 'Lato',sans-serif;
+    font-size: 38px;
+}
+
+.about_title p {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    margin-top: 10px;
+    margin-bottom: 16px;
+}
+
+.about_button {
+    color: #fff;
+    display: flex;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.about_button>img {
+    margin-right: 5px;
+}
+    
+}

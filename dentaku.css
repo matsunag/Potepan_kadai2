@@ -1,0 +1,46 @@
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+div {
+  display: block;
+}
+
+.wrapper {
+  max-width: 350px;
+  margin: 0 auto;
+  color: #666;
+}
+
+#header, #dentaku {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+#header {
+  font-size: 24px;
+  padding: 1rem;
+}
+
+input {
+  box-sizing: border-box;
+  width: 75%;
+  height: 3.5rem;
+  font-size: 1.6rem;
+  text-align: right;
+  padding: 0 0.75em;
+}
+
+button {
+  font-size: 18px;
+  width: 23%;
+  height: 3.5rem;
+  color: #333;
+  vertical-align: middle;
+  border-color: #fff;
+}
+
+button:hover {
+  background-color: #ddd;
+}
